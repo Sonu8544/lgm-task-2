@@ -1,0 +1,131 @@
+body{
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(10, 10, 9);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    /* width: 300px; */
+}
+.section
+{
+    position:sticky;
+    height:800px;
+
+    left:0px;
+   
+}
+.profile img{ 
+    width: 220px;
+    height: 320px;
+}
+.main img{
+ width: 150px;
+ height: 120px;
+ position: absolute;
+
+ top: 150px;
+ left: 1200px;
+}
+#statement{
+    font-size:28px;
+    color: white;
+    position: relative;
+    top:-30px;
+    left:10px;
+;
+}
+#name{
+    font-size: 72px;
+    position: relative;
+    top: -185px;
+    left: 280px;
+    color :white;
+    position: relative;
+    
+
+}
+
+.btn{
+    position:absolute;
+    top:-50px;
+    right:-120px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    font-weight:bold;
+    font-size: 40px;
+}
+
+#getdata{
+    color:black;
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    background-image: linear-gradient(hsl(142, 43%, 68%),rgb(138, 137, 106));
+    border-radius: 20px;
+    position: relative;
+    top: 400px;left: -400px;
+    border: none;
+    font-family:'Lucida Sans Unicod';
+    cursor :pointer;
+}
+#getdata:hover{
+    background-image: linear-gradient(hsl(142, 5%, 47%),rgb(73, 73, 45));
+    color: white;
+}
+
+#data
+{
+    width:99%;
+    height:500px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:900px;
+
+}
+table{
+    color:rgb(102, 88, 233);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+    
+}
+table tr :hover{
+    background-color:rgb(222, 224, 165);
+    transform:scale(1.5);
+    z-index:2;
+}
+img{
+    clip-path: square();
+}
+.welcome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(247, 244, 248);
+    padding-top: 50px;
+}
+.my-button{
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(hsl(143, 16%, 49%),rgb(56, 138, 134));
+    position:absolute;
+    
+    font-weight: bold;
+    font-family:'Lucida Sans Unicod';
+    position:relative;
+    left: -340px;
+    top: 100px;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.my-button:hover{
+    color: white;
+    background-image: linear-gradient(hsl(141, 10%, 27%),rgb(87, 56, 138));
+}
